@@ -1,0 +1,6 @@
+## Interface: 30300
+## Title: SteakFlashCC
+## Notes: Flash the screen edge when your druid has clear casting (Omen of Clarity).
+## Version: 1.0.0
+## Author: Soonbesteak
+Core.lua
