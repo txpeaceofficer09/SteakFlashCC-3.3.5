@@ -10,7 +10,7 @@ local tex = frame:CreateTexture(nil, "OVERLAY")
 local w, h = frame:GetSize()
 
 tex:SetPoint("CENTER")
-tex:SetSize(w*1.3, h*1.3)
+tex:SetSize(w*1.35, h*1.3)
 
 tex:SetTexture("Interface\\AddOns\\SteakFlashCC\\ClearCasting.tga")
 tex:SetVertexColor(1, 1, 1)
@@ -39,3 +39,5 @@ end
 
 f:RegisterEvent("UNIT_AURA")
 f:RegisterEvent("PLAYER_ENTERING_WORLD")
+
+f:SetScript("OnEvent", OnEvent)
